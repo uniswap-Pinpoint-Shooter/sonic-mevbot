@@ -25,7 +25,8 @@ export const ColorwayPaletteSchema = z.object({
   accent5: ColorSchema,
   accent6: ColorSchema,
   accent7: ColorSchema,
-  accent8: ColorSchema
+  accent8: ColorSchema,
+  accent9: ColorSchema
 })
 
 export type ColorwayPalette = z.infer<typeof ColorwayPaletteSchema>

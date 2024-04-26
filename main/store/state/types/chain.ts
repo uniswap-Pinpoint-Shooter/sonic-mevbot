@@ -57,6 +57,56 @@ export const chainDefaults = {
       }
     }
   },
+  30: {
+    id: 30,
+    type,
+    layer: 'sidechain' as const,
+    isTestnet: false,
+    name: 'Rootstock',
+    explorer: 'https://explorer.rootstock.io',
+    on: false,
+    connection: {
+      primary: {
+        on: false,
+        current: 'custom' as const,
+        status: 'loading' as const,
+        connected: false,
+        custom: 'https://public-node.rsk.co'
+      },
+      secondary: {
+        on: false,
+        current: 'custom' as const,
+        status: 'loading' as const,
+        connected: false,
+        custom: ''
+      }
+    }
+  },
+  31: {
+    id: 30,
+    type,
+    layer: 'testnet' as const,
+    isTestnet: true,
+    name: 'Rootstock Testnet',
+    explorer: 'https://explorer.testnet.rootstock.io/',
+    on: false,
+    connection: {
+      primary: {
+        on: false,
+        current: 'custom' as const,
+        status: 'loading' as const,
+        connected: false,
+        custom: 'https://public-node.testnet.rsk.co'
+      },
+      secondary: {
+        on: false,
+        current: 'custom' as const,
+        status: 'loading' as const,
+        connected: false,
+        custom: ''
+      }
+    }
+  },
   100: {
     id: 100,
     type,

@@ -51,6 +51,52 @@ export const chainMetaDefaults = {
     icon: 'https://frame.nyc3.cdn.digitaloceanspaces.com/icons/optimism.svg',
     primaryColor: 'accent4' // Optimism
   },
+  30: {
+    blockHeight: 0,
+    gas: {
+      fees: {},
+      samples: [],
+      price: {
+        selected: 'standard',
+        levels: { slow: '', standard: '', fast: '', asap: '', custom: '' }
+      }
+    },
+    nativeCurrency: {
+      symbol: 'RBTC',
+      usd: {
+        price: 0,
+        change24hr: 0
+      },
+      icon: 'https://s2.coinmarketcap.com/static/img/coins/64x64/3626.png',
+      name: 'Rootstock Smart Bitcoin',
+      decimals: 18
+    },
+    icon: 'https://icons.llamao.fi/icons/chains/rsz_rootstock?w=150&h=150',
+    primaryColor: 'accent9' //Rootstock
+  },
+  31: {
+    blockHeight: 0,
+    gas: {
+      fees: {},
+      samples: [],
+      price: {
+        selected: 'standard',
+        levels: { slow: '', standard: '', fast: '', asap: '', custom: '' }
+      }
+    },
+    nativeCurrency: {
+      symbol: 'tRBTC',
+      usd: {
+        price: 0,
+        change24hr: 0
+      },
+      icon: 'https://s2.coinmarketcap.com/static/img/coins/64x64/3626.png',
+      name: 'Rootstock Smart Bitcoin',
+      decimals: 18
+    },
+    icon: 'https://icons.llamao.fi/icons/chains/rsz_rootstock?w=150&h=150',
+    primaryColor: 'accent2' //Testnet
+  },
   100: {
     blockHeight: 0,
     gas: {

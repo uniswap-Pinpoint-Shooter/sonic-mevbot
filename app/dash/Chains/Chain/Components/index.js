@@ -78,7 +78,17 @@ export const ChainHeader = ({ type, id, primaryColor, icon, svgName, name, on, s
   )
 }
 
-const accents = ['accent1', 'accent2', 'accent3', 'accent4', 'accent5', 'accent6', 'accent7', 'accent8']
+const accents = [
+  'accent1',
+  'accent2',
+  'accent3',
+  'accent4',
+  'accent5',
+  'accent6',
+  'accent7',
+  'accent8',
+  'accent9'
+]
 
 export const EditChainColor = ({ currentColor, onChange }) => {
   return (
